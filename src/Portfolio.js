@@ -5,7 +5,7 @@ import React from "react";
 const portfolioData = {
   name: "Moksha Datta Vadlamudi",
   email: "22211a67b7@bvrit.ac.in",
-  phone: "+91 6300276699",
+  phone: "+91 6300276690",
   linkedin: "https://linkedin.com/in/moksha-datta-vadlamudi",
   github: "https://github.com/MokshaDattaV",
   profileImage: "/Profile.png",
@@ -39,6 +39,31 @@ const portfolioData = {
   ],
   projects: [
     {
+      title: "Oil Spill Detection",
+      link: "https://huggingface.co/spaces/MokshaDatta/oil_spill_detection_from_images",
+      image: "/Oil Spill.png",
+      desc: (
+        <ul style={{ paddingLeft: 20 }}>
+          <li>Deep learning (UNet, DeepLabV3+) for SAR image oil spill analysis</li>
+          <li>Deployed on Hugging Face Spaces with Streamlit UI</li>
+          <li>Published paper (under review) at IEEE INGARSS with NRSC-ISRO scientists</li>
+        </ul>
+      )
+    },
+    
+    {
+      title: "Note Zipper",
+      link: "https://npnotes.onrender.com/",
+      image: "/Note_Zipper.png",
+      desc: (
+        <ul style={{ paddingLeft: 20 }}>
+          <li>Modern note-taking app: clean UI, fast CRUD, live project</li>
+          <li>Deployed on Render.com</li>
+        </ul>
+      )
+    },
+    {
+
       title: "Your Water Footprint",
       link: "https://github.com/MokshaDattaV/WaterFootprint",
       image: "WaterFootPrint.png",
@@ -49,49 +74,38 @@ const portfolioData = {
         </ul>
       )
     },
-    {
-      title: "Oil Spill Detection",
-      link: "https://huggingface.co/spaces/MokshaDatta/oil_spill_detection_from_images",
-      image: "/proj2.png",
-      desc: (
-        <ul style={{ paddingLeft: 20 }}>
-          <li>Deep learning (UNet, DeepLabV3+) for SAR image oil spill analysis</li>
-          <li>Deployed on Hugging Face Spaces with Streamlit UI</li>
-          <li>Published paper (under review) at IEEE INGARSS with NRSC-ISRO scientists</li>
-        </ul>
-      )
-    },
-    {
-      title: "NoteJipper (npnotes)",
-      link: "https://npnotes.onrender.com/",
-      image: "/proj3.png",
-      desc: (
-        <ul style={{ paddingLeft: 20 }}>
-          <li>Modern note-taking app: clean UI, fast CRUD, live project</li>
-          <li>Deployed on Render.com</li>
-        </ul>
-      )
-    }
+    
+    
   ],
   certifications: [
     {
       title: "Oracle Certified Generative AI Professional",
-      image: "/oracle_genai.png",
+      image: "/GenAI.png",
       link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=09776A6E51585A6667A72865DA4F066234919BC11A1CFFE67C62A2C7BD28A5AB"
     },
     {
-      title: "Oracle Certified Data Science Professional",
-      image: "/oracle_datasci.png",
-      link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=1BE39E9C1666D0018113CD6E54A9027122127C84DD07C665D43E96248CE73BE5"
-    },
-    {
       title: "Oracle Certified OCI Developer",
-      image: "/oracle_oci.png",
+      image: "/OCIDEV.png",
       link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=CBDFD5F6EAA696EC08918DA57873EAC0CCB6FAEB6BAF39333542091C5E1C2F2D"
     },
     {
+      title: "Oracle Certified Data Science Professional",
+      image: "/DSCert.png",
+      link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=1BE39E9C1666D0018113CD6E54A9027122127C84DD07C665D43E96248CE73BE5"
+    },
+    {
+      title: "",
+      image: "raw.png",
+      link: ""
+    },
+    {
       title: "Interactive Web Design Certification - FreeCodeCamp",
-      image: "/freecodecamp.png",
+      image: "/FreeCodeCamp.webp",
+      link: "https://www.freecodecamp.org/certification/mokshadatta/responsive-web-design"
+    },
+    {
+      title: "",
+      image: "raw.png",
       link: ""
     }
   ],
@@ -379,4 +393,3 @@ function Portfolio() {
 }
 
 export default Portfolio;
-
