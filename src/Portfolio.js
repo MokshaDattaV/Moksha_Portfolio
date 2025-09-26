@@ -5,7 +5,7 @@ import React from "react";
 const portfolioData = {
   name: "Moksha Datta Vadlamudi",
   email: "22211a67b7@bvrit.ac.in",
-  phone: "+91 6300276690",
+  phone: "+91 6300276699",
   linkedin: "https://linkedin.com/in/moksha-datta-vadlamudi",
   github: "https://github.com/MokshaDattaV",
   profileImage: "/Profile.png",
@@ -379,3 +379,4 @@ function Portfolio() {
 }
 
 export default Portfolio;
+
