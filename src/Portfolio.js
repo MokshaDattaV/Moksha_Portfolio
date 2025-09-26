@@ -8,8 +8,8 @@ const portfolioData = {
   phone: "+91 6300276690",
   linkedin: "https://linkedin.com/in/moksha-datta-vadlamudi",
   github: "https://github.com/MokshaDattaV",
-  profileImage: "/profile.png",
-  resumeLink: "/resume.pdf",
+  profileImage: "/Profile.png",
+  resumeLink: "/Resume.pdf",
   internship: [
     {
       company: "NRSC, ISRO",
@@ -41,7 +41,7 @@ const portfolioData = {
     {
       title: "Your Water Footprint",
       link: "https://github.com/MokshaDattaV/WaterFootprint",
-      image: "WaterFootprint.png",
+      image: "WaterFootPrint.png",
       desc: (
         <ul style={{ paddingLeft: 20 }}>
           <li>Team lead: full MERN stack web app with React.js & RESTful API</li>
